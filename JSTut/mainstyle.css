@@ -1,0 +1,13 @@
+html{
+    font-size: 1rem;
+} 
+
+.jumbotron {
+    background-color: rgb(37, 31, 123);
+    color: white;
+
+}
+
+.textarea {
+    height: 13rem;
+} 

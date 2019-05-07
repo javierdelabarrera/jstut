@@ -36,13 +36,16 @@
                 <input type="text" class="form-control" id="i13" value="Noun" />
             </form><br><br>
             <button type="submit" class="btn-lg" onclick="alert('Hello')">Hello</button>
-            <button type="submit" class="btn-lg" onclick="calcPI()">Get PI</button>
-            <button type="submit" class="btn-lg" onclick="getFibList()">Get Fibs</button>
+            <button type="submit" class="btn-lg" onclick="calcPI(10000000)">Get PI</button>
+            <button type="submit" class="btn-lg" onclick="getFibList(10)">Get Fibs</button>
             <button type="submit" class="btn-lg" onclick="getMadLibGenerator()">MadLib Generate</button>
             <br><br>
 
             <div class="input-group">
-                
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Output</span>
+                </div>
+                <textarea id="output1" rows="18" class="form-control"></textarea>
             </div>
         </div>
 
